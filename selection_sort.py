@@ -8,7 +8,6 @@ def findSmallest(arr):
     return smallest_index
 
 #print(findSmallest([4,3,5,7,9,1,12]))
-#print(findSmallest([1,6,9,4,5,8,2]))
 
 def selectionSort(arr):
     newArr = []
