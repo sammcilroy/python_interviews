@@ -11,9 +11,9 @@ def recursive_sum(arr):
     if len(arr) == 0:
         return 0
     if len(arr) == 1:
-        return sum(arr)
+        return arr[0]
     # RECURSIVE CASE - sum
-    return arr[0] + sum(arr[1:])
+    return arr[0] + recursive_sum(arr[1:])
 
 
 
