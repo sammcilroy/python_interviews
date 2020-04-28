@@ -22,7 +22,7 @@ def search(name):
         person = search_queue.popleft() # take the first person from the queue
         if not person in searched:
             if person_is_seller(person): # check whether the person is a mango seller
-                print(person + " is a mango seller!")
+                print(person + " is a mango seller!!")
                 return True
             else:
                 search_queue += graph[person] # not a seller, add all of their neighbours the queue
